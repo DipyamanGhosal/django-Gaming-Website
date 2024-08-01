@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-image-container">
+            <img src="/static/img/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-blend"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Slay Monsters with Butcher of Blaviken</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-image-container">
+            <img src="/static/img/1.jfif" class="d-block w-100" alt="...">
+            <div class="carousel-blend"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Be Greater, Be Spider-Man</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-image-container">
+            <img src="/static/img/3.jfif" class="d-block w-100" alt="...">
+            <div class="carousel-blend"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The Ghost of Sparta Returns</h5> 
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+</div>
+
+
+<div class="container-fluid px-0" style="
+    position: relative; 
+    overflow: hidden;
+    background-image: url('/static/img/background4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+">
+
+  <!-- Add an overlay to adjust opacity of the background image -->
+  <div style="
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity */
+      z-index: -1;
+  "></div>
+<div class="container my-1">
+  <h1 class="text-center my-4 mb-0" style="
+  font-size: 3.5rem; 
+  font-weight: 700; 
+  color: #ffffff; 
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4), 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  margin: 0 auto; 
+  padding: 0.5px; 
+  display: block; 
+  text-align: center;
+  width: fit-content;
+">
+  GameGrove
+</h1>
+  <p class="mb-4" style="color:white; text-align: center;">Embark on an Unforgettable Gaming Journey with PS5, PS4, or PC—Choose Your Platform, Set Your Course, and Play On!</p>
+
+    <div class="album py-3 px-3">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="/static/img/logo.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Rockstar's Red Dead Redemtion 2</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" class="btn btn-sm btn-outline-secondary">View</a>                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="/static/img/logo1.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">GOW Ascension</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://www.amazon.in/God-War-Ascension-Standard-PS3/dp/B00BEU4TY8" class="btn btn-sm btn-outline-secondary">View</a>                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="/static/img/logo2.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Marvel's Spider-Man</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" class="btn btn-sm btn-outline-secondary">View</a>     
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="/static/img/logo3.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Day's Gone</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://store.steampowered.com/app/1259420/Days_Gone/" class="btn btn-sm btn-outline-secondary">View</a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="/static/img/logo4.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Witcher 3</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" class="btn btn-sm btn-outline-secondary">View</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="/static/img/logo5.jfif" class="d-block w-100" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Uncharted 4</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://store.steampowered.com/app/1659420/UNCHARTED_Legacy_of_Thieves_Collection/" class="btn btn-sm btn-outline-secondary">View</a>
+                    </div>
+                    
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+{% endblock body %}
